@@ -1,0 +1,32 @@
+.canter_main_panel {
+    max-width: 1100px;
+    margin: 2em auto;
+}
+
+.users_table {
+    width: 100%;
+    height: 500px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    background: #f5f5f5;
+    overflow: hidden;
+}
+
+.header_users_table {
+    background: var(--blue);
+}
+
+tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+th {
+    text-align: start;
+    color: #FFFF;
+    padding: 10px 20px;
+}
+
+td {
+    color: #414141;
+    padding: 10px 20px;
+}

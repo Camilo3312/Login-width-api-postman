@@ -1,0 +1,40 @@
+.main_home {
+    background: var(--background);
+}
+
+.center_main {
+    max-width: 1100px;
+    height: calc(100vh - (60px + 60px));
+    margin: auto;
+    padding: 2em 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #FFFF;
+}
+
+.image_main {
+    width: 728px;
+    border-radius: 10px;
+}
+
+.filter_brightness {
+    filter: brightness(0.5);
+}
+
+.filter_blur {
+    filter: blur(20px);
+}
+
+.operations {
+    padding: 20px;
+    width: 450px;
+
+    display: flex;
+    justify-content: space-between;
+}

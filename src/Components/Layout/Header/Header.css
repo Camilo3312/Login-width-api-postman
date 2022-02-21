@@ -1,0 +1,21 @@
+header {
+    background: var(--blue);
+
+}
+
+.center_header {
+    max-width: 1100px;
+    margin: auto;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nav_header  {
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}

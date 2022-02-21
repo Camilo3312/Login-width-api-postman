@@ -1,0 +1,28 @@
+.btn_default {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: #3642eb;
+    color: #FFFF;
+    transition: 100s;   
+}
+
+.btn_default:hover {
+    cursor: pointer;
+}
+
+
+.btn_dark {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: #2c2c2c;
+    color: #FFFF;
+}
+
+.btn_dark:hover {
+    cursor: pointer;
+    background: linear-gradient(#5c5c5c,#414040);
+}

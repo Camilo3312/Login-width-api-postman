@@ -18,7 +18,7 @@ export const Header = () => {
         <nav className='nav_header'>
           <NavLink to='/register'><Button style='btn_default' value='Register' /></NavLink>
           <NavLink to='/login'><Button style='btn_default' value='Login' /></NavLink>
-   
+          <p>panel</p>
         </nav>
       </div>
     </header>
